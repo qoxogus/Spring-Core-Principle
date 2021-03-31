@@ -166,3 +166,5 @@ public class OrderServiceImpl implements OrderService {
 ![](./memo_img/관심사의분리3.png)
 
 ![](./memo_img/관심사의분리4.png)
+
+![](./memo_img/관심사의분리5.png)
