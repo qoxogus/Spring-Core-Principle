@@ -7,9 +7,14 @@ import hello.core.member.MemoryMemberRepository;
 
 public class OrderServiceImpl implements OrderService {
 
-    private final MemberRepository memberRepository = new MemoryMemberRepository(); //메모리회원리포
+    private final MemberRepository memberRepository; //메모리회원리포
 //    private final DiscountPolicy discountPolicy = new FixDiscountPolicy(); //고정할인 금액정책
-    private DiscountPolicy discountPolicy;
+    private final DiscountPolicy discountPolicy;
+
+    public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
+        this.memberRepository = memberRepository; //메모리멤버리포
+        this.discountPolicy = discountPolicy; //픽스디스카운트폴리시
+    }
 
     @Override
     public Order createOrder(Long memberId, String itemName, int itemPrice) { //주문생성 요청이 오면
