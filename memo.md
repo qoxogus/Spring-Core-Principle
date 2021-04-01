@@ -174,3 +174,20 @@ public class OrderServiceImpl implements OrderService {
 **리팩터링 후**
 * `new MemoryMemberRepository()` 이 부분이 중복 제거되었다. 이제 `MemoryMemberRepository` 를 다 른 구현체로 변경할 때 한 부분만 변경하면 된다.
 * `AppConfig` 를 보면 역할과 구현 클래스가 한눈에 들어온다. 애플리케이션 전체 구성이 어떻게 되어있는지 빠르게 파악할 수 있다.
+
+## 새로운 구조와 할인 정책 적용
+* 처음으로 돌아가서 정액 할인 정책을 정률% 할인 정책으로 변경해보자.
+* FixDiscountPolicy -> RateDiscountPolicy
+* 어떤 부분만 변경하면 되겠는가?
+
+*AppConfig의 등장으로 애플리케이션이 크게 사용 영역과, 객체를 생성하고 구성(Configuration)하는 영역으로 분리되었다.*
+
+그림 - 사용, 구성의 분리
+![](./memo_img/새로운_구조와_할인정책_적용1.png)
+
+![](./memo_img/새로운_구조와_할인정책_적용2.png)
+
+**변경 후**
+* `AppConfig` 에서 할인 정책 역할을 담당하는 구현을 `FixDiscountPolicy ` -> `RateDiscountPolicy` 객체로 변경했다.
+* 이제 할인 정책을 변경해도, 애플리케이션의 구성 역할을 담당하는 AppConfig만 변경하면 된다. 클라이언 트 코드인 `OrderServiceImpl` 를 포함해서 **사용 영역**의 어떤 코드도 변경할 필요가 없다.
+* **구성 영역**은 당연히 변경된다. 구성 역할을 담당하는 AppConfig를 애플리케이션이라는 공연의 기획자로 생각하자. 공연 기획자는 공연 참여자인 구현 객체들을 모두 알아야 한다.

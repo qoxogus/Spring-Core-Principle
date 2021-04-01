@@ -8,8 +8,10 @@ import hello.core.member.MemoryMemberRepository;
 public class OrderServiceImpl implements OrderService {
 
     private final MemberRepository memberRepository; //메모리회원리포
-//    private final DiscountPolicy discountPolicy = new FixDiscountPolicy(); //고정할인 금액정책
     private final DiscountPolicy discountPolicy;
+
+//    private final DiscountPolicy discountPolicy = new FixDiscountPolicy(); //고정할인 금액정책
+
 
     public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
         this.memberRepository = memberRepository; //메모리멤버리포
