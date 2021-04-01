@@ -168,3 +168,9 @@ public class OrderServiceImpl implements OrderService {
 ![](./memo_img/관심사의분리4.png)
 
 ![](./memo_img/관심사의분리5.png)
+
+## AppConfig 리터링
+![](./memo_img/AppConfig리팩터링.png)  
+**리팩터링 후**
+* `new MemoryMemberRepository()` 이 부분이 중복 제거되었다. 이제 `MemoryMemberRepository` 를 다 른 구현체로 변경할 때 한 부분만 변경하면 된다.
+* `AppConfig` 를 보면 역할과 구현 클래스가 한눈에 들어온다. 애플리케이션 전체 구성이 어떻게 되어있는지 빠르게 파악할 수 있다.
