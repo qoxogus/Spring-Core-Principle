@@ -262,3 +262,9 @@ OCP
 ![](./memo_img/ioc_di_container4.png)
 
 ![](./memo_img/spring으로전환하기.png)
+
+![](./memo_img/스프링컨테이너생성1.png)
+
+![](./memo_img/스프링컨테이너생성2.png)
+
+![](./memo_img/스프링컨테이너생성3.png)
