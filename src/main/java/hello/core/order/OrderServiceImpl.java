@@ -14,8 +14,8 @@ public class OrderServiceImpl implements OrderService {
 
 
     public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
-        this.memberRepository = memberRepository; //메모리멤버리포
-        this.discountPolicy = discountPolicy; //픽스디스카운트폴리시
+        this.memberRepository = memberRepository; //AppConfig에서 바꿀 수 있다.
+        this.discountPolicy = discountPolicy; //AppConfig에서 바꿀 수 있다.
     }
 
     @Override

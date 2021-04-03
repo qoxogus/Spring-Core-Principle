@@ -252,3 +252,11 @@ OCP
 * 애플리케이션을 사용 영역과 구성 영역으로 나눔
 * AppConfig가 의존관계를 `FixDiscountPolicy` ->  `RateDiscountPolicy` 로 변경해서 클라이언트 코 드에 주입하므로 클라이언트 코드는 변경하지 않아도 됨
 * **소프트웨어 요소를 새롭게 확장해도 사용 역영의 변경은 닫혀 있다!**
+
+![](./memo_img/ioc_di_container1.png)
+
+![](./memo_img/ioc_di_container2.png)
+
+![](./memo_img/ioc_di_container3.png)
+
+![](./memo_img/ioc_di_container4.png)
