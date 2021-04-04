@@ -286,3 +286,9 @@ OCP
 ![](./memo_img/다양한설정형식지원-자바코드,XML2.png)
 
 ![](./memo_img/다양한설정형식지원-자바코드,XML3.png)
+
+![](./memo_img/스프링빈설정메타정보_BeanDefiniton1.png)
+
+![](./memo_img/스프링빈설정메타정보_BeanDefiniton2.png)
+
+![](./memo_img/스프링빈설정메타정보_BeanDefiniton3.png)
