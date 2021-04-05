@@ -292,3 +292,9 @@ OCP
 ![](./memo_img/스프링빈설정메타정보_BeanDefiniton2.png)
 
 ![](./memo_img/스프링빈설정메타정보_BeanDefiniton3.png)
+
+![](./memo_img/web&singleton1.png)
+
+![](./memo_img/web&singleton2.png)
+
+![](./memo_img/web&singleton3.png)
