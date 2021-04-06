@@ -298,3 +298,9 @@ OCP
 ![](./memo_img/web&singleton2.png)
 
 ![](./memo_img/web&singleton3.png)
+
+![](./memo_img/싱글톤패턴1.png)
+
+![](./memo_img/싱글톤패턴2.png)
+
+![](./memo_img/싱글톤패턴3.png)
