@@ -313,3 +313,9 @@ OCP
 ![](./memo_img/싱글톤방식의주의점1.png)
 
 ![](./memo_img/싱글톤방식의주의점2.png)
+
+![](./memo_img/configuration과싱글톤1.png)
+
+![](./memo_img/configuration과싱글톤2.png)
+
+![](./memo_img/configuration과싱글톤3.png)
