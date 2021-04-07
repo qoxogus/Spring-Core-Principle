@@ -331,3 +331,15 @@ OCP
 ![](./memo_img/configuration과바이트코드조작의마법5.png)
 
 ![](./memo_img/configuration과바이트코드조작의마법6.png)
+
+![](./memo_img/컴포넌트스캔과의존관계자동주입시작하기1.png)
+
+![](./memo_img/컴포넌트스캔과의존관계자동주입시작하기2.png)
+
+![](./memo_img/컴포넌트스캔과의존관계자동주입시작하기3.png)
+
+![](./memo_img/컴포넌트스캔과의존관계자동주입시작하기4.png)
+
+![](./memo_img/컴포넌트스캔과의존관계자동주입시작하기5.png)
+
+![](./memo_img/컴포넌트스캔과의존관계자동주입시작하기6.png)
