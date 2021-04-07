@@ -319,3 +319,15 @@ OCP
 ![](./memo_img/configuration과싱글톤2.png)
 
 ![](./memo_img/configuration과싱글톤3.png)
+
+![](./memo_img/configuration과바이트코드조작의마법1.png)
+
+![](./memo_img/configuration과바이트코드조작의마법2.png)
+
+![](./memo_img/configuration과바이트코드조작의마법3.png)
+
+![](./memo_img/configuration과바이트코드조작의마법4.png)
+
+![](./memo_img/configuration과바이트코드조작의마법5.png)
+
+![](./memo_img/configuration과바이트코드조작의마법6.png)
