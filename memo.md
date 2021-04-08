@@ -354,10 +354,26 @@ OCP
 
 ![](./memo_img/필터1.png)
 
-![](./memo_img/필터2.png)
+![](./memo_img/필터2.png) 
 
 ![](./memo_img/필터3.png)
 
 ![](./memo_img/스프링빈중복등록과충돌1.png)
 
 ![](./memo_img/스프링빈중복등록과충돌2.png)
+
+![](./memo_img/다양한의존관계주입방법1.png)
+
+![](./memo_img/다양한의존관계주입방법2.png)
+
+![](./memo_img/다양한의존관계주입방법3.png)
+
+![](./memo_img/다양한의존관계주입방법4.png)
+
+![](./memo_img/다양한의존관계주입방법5.png)
+
+![](./memo_img/다양한의존관계주입방법6.png)
+
+![](./memo_img/다양한의존관계주입방법7.png)
+
+![](./memo_img/다양한의존관계주입방법8.png)
