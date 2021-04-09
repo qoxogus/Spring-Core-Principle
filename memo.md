@@ -377,3 +377,9 @@ OCP
 ![](./memo_img/다양한의존관계주입방법7.png)
 
 ![](./memo_img/다양한의존관계주입방법8.png)
+
+![](./memo_img/옵션처리1.png)
+
+![](./memo_img/옵션처리2.png)
+
+![](./memo_img/옵션처리3.png)
