@@ -383,3 +383,11 @@ OCP
 ![](./memo_img/옵션처리2.png)
 
 ![](./memo_img/옵션처리3.png)
+
+![](./memo_img/생성자주입을선택하라1.png)
+
+![](./memo_img/생성자주입을선택하라2.png)
+
+![](./memo_img/생성자주입을선택하라3.png)
+
+![](./memo_img/생성자주입을선택하라4.png)

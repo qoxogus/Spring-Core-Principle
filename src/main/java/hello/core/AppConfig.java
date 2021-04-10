@@ -42,9 +42,10 @@ public class AppConfig {
     @Bean
     public OrderService orderService() {
         System.out.println("call AppConfig.orderService");
-        return new OrderServiceImpl(memberRepository(), discountPolicy()); //memoryMemberRepository, FixDiscountPolicy
+//        return new OrderServiceImpl(memberRepository(), discountPolicy()); //memoryMemberRepository, FixDiscountPolicy
         //OrderServiceImpl생성 -> MemoryMemberRepository와 FixDiscountPolicy를 넘김
         //OrderServiceImpl이 MemoryMemberRepository와 FixDiscountPolicy를 참조시키도록 함.
+        return null;
     }
 
     @Bean
