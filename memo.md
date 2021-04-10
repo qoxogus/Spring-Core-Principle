@@ -391,3 +391,9 @@ OCP
 ![](./memo_img/생성자주입을선택하라3.png)
 
 ![](./memo_img/생성자주입을선택하라4.png)
+
+![](./memo_img/롬복과최신트렌드1.png)
+
+![](./memo_img/롬복과최신트렌드2.png)
+
+![](./memo_img/롬복과최신트렌드3.png)

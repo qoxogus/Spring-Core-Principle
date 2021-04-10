@@ -4,10 +4,12 @@ import hello.core.discount.DiscountPolicy;
 import hello.core.member.Member;
 import hello.core.member.MemberRepository;
 import hello.core.member.MemoryMemberRepository;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
+@RequiredArgsConstructor
 public class OrderServiceImpl implements OrderService {
 
     private final MemberRepository memberRepository; //메모리회원리포
@@ -15,11 +17,12 @@ public class OrderServiceImpl implements OrderService {
 
 //    private final DiscountPolicy discountPolicy = new FixDiscountPolicy(); //고정할인 금액정책
 
-    @Autowired //생성자에 파라미터가 많아도 다 찾아서 자동으로 주입한다
-    public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
-        this.memberRepository = memberRepository; //AppConfig에서 바꿀 수 있다.
-        this.discountPolicy = discountPolicy; //AppConfig에서 바꿀 수 있다.
-    }
+//    @RequiredArgsConstructor가 생성자 주입코드를 만들어준다....!!!!!!@@@@@@@
+//    @Autowired //생성자에 파라미터가 많아도 다 찾아서 자동으로 주입한다
+//    public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
+//        this.memberRepository = memberRepository; //AppConfig에서 바꿀 수 있다.
+//        this.discountPolicy = discountPolicy; //AppConfig에서 바꿀 수 있다.
+//    }
 
     @Override
     public Order createOrder(Long memberId, String itemName, int itemPrice) { //주문생성 요청이 오면
