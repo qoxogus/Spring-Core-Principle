@@ -1,5 +1,6 @@
 package hello.core.order;
 
+import hello.core.annotation.MainDiscountPolicy;
 import hello.core.discount.DiscountPolicy;
 import hello.core.member.Member;
 import hello.core.member.MemberRepository;
@@ -20,7 +21,7 @@ public class OrderServiceImpl implements OrderService {
 
 //    @RequiredArgsConstructor가 생성자 주입코드를 만들어준다....!!!!!!@@@@@@@
     @Autowired //생성자에 파라미터가 많아도 다 찾아서 자동으로 주입한다
-    public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
+    public OrderServiceImpl(MemberRepository memberRepository, @MainDiscountPolicy DiscountPolicy discountPolicy) {
         this.memberRepository = memberRepository; //AppConfig에서 바꿀 수 있다.
         this.discountPolicy = discountPolicy; //AppConfig에서 바꿀 수 있다.
     }
