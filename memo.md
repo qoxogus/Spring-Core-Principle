@@ -419,3 +419,7 @@ OCP
 ![](./memo_img/애노테이션직접만들기1.png)
 
 ![](./memo_img/애노테이션직접만들기2.png)
+
+![](./memo_img/조회한빈이모두필요할때List,Map1.png)
+
+![](./memo_img/조회한빈이모두필요할때List,Map2.png)

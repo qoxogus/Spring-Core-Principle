@@ -8,9 +8,10 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 
-@Component
+
 //@Qualifier("mainDiscountPolicy")
 //@Primary //의존관계 우선순위 우선권을 가짐
+@Component
 @MainDiscountPolicy
 public class RateDiscountPolicy implements DiscountPolicy{
 
