@@ -441,3 +441,5 @@ OCP
 ![](./memo_img/빈등록초기화,소멸메서드2.png)
 
 ![](./memo_img/애노테이션@PostConstruct,@PreDestory.png)
+
+![](./memo_img/빈스코프.png)
