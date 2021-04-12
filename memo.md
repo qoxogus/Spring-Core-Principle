@@ -423,3 +423,9 @@ OCP
 ![](./memo_img/조회한빈이모두필요할때List,Map1.png)
 
 ![](./memo_img/조회한빈이모두필요할때List,Map2.png)
+
+![](./memo_img/자동빈,수동빈실무의올바른운영기준1.png)
+
+![](./memo_img/자동빈,수동빈실무의올바른운영기준2.png)
+
+![](./memo_img/자동빈,수동빈실무의올바른운영기준3.png)
