@@ -433,3 +433,5 @@ OCP
 ![](./memo_img/빈생명주기콜백시작1.png)
 
 ![](./memo_img/빈생명주기콜백시작2.png)
+
+![](./memo_img/인터페이스InitializingBean,DisposableBean.png)
