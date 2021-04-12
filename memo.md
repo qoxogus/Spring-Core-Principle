@@ -435,3 +435,7 @@ OCP
 ![](./memo_img/빈생명주기콜백시작2.png)
 
 ![](./memo_img/인터페이스InitializingBean,DisposableBean.png)
+
+![](./memo_img/빈등록초기화,소멸메서드1.png)
+
+![](./memo_img/빈등록초기화,소멸메서드2.png)
