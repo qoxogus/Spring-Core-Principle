@@ -471,3 +471,12 @@ OCP
 ![](./memo_img/프로토타입스코프-싱글톤빈과함께사용시Provider로문제해결4.png)
 
 ![](./memo_img/웹스코프.png)
+
+![](./memo_img/request스코프예제만들기1.png)
+
+![](./memo_img/request스코프예제만들기2.png)
+
+![](./memo_img/request스코프예제만들기3.png)
+
+![](./memo_img/request스코프예제만들기4.png)
+
