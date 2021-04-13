@@ -443,3 +443,11 @@ OCP
 ![](./memo_img/애노테이션@PostConstruct,@PreDestory.png)
 
 ![](./memo_img/빈스코프.png)
+
+![](./memo_img/프로토타입스코프1.png)
+
+![](./memo_img/프로토타입스코프2.png)
+
+![](./memo_img/프로토타입스코프3.png)
+
+![](./memo_img/프로토타입스코프4.png)
