@@ -469,3 +469,5 @@ OCP
 ![](./memo_img/프로토타입스코프-싱글톤빈과함께사용시Provider로문제해결3.png)
 
 ![](./memo_img/프로토타입스코프-싱글톤빈과함께사용시Provider로문제해결4.png)
+
+![](./memo_img/웹스코프.png)
