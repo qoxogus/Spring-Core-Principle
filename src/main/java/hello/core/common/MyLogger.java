@@ -24,7 +24,7 @@ public class MyLogger {
 
     @PostConstruct
     public void init() {
-        String uuid = UUID.randomUUID().toString(); // @PostConstruct초기화 메서드를 사용해 uuid를 생성해서 저장해둔다
+        uuid = UUID.randomUUID().toString(); // @PostConstruct초기화 메서드를 사용해 uuid를 생성해서 저장해둔
         System.out.println("[" + uuid + "] request scope bean create:" + this);
     }
 

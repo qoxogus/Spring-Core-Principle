@@ -480,3 +480,7 @@ OCP
 
 ![](./memo_img/request스코프예제만들기4.png)
 
+![](./memo_img/스코프와Provider1.png)
+
+![](./memo_img/스코프와Provider2.png)
+
