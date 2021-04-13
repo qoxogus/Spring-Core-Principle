@@ -484,3 +484,11 @@ OCP
 
 ![](./memo_img/스코프와Provider2.png)
 
+![](./memo_img/스코프와프록시1.png)
+
+![](./memo_img/스코프와프록시2.png)
+
+![](./memo_img/스코프와프록시3.png)
+
+![](./memo_img/스코프와프록시4.png)
+
